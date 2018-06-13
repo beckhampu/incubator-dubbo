@@ -28,6 +28,9 @@ import java.util.Map;
 
 /**
  * ApplicationConfig
+ * 
+ * 应用配置
+ * 属性参见 http://dubbo.apache.org/books/dubbo-user-book/references/xml/dubbo-application.html
  *
  * @export
  */
@@ -67,8 +70,12 @@ public class ApplicationConfig extends AbstractConfig {
 
     // is default or not
     private Boolean isDefault;
-
-    // directory for saving thread dump
+    
+    /**
+     * directory for saving thread dump
+     *
+     * @see <a href="http://dubbo.apache.org/books/dubbo-user-book/demos/dump.html">线程栈自动 dump</a>
+     */
     private String dumpDirectory;
 
     private Boolean qosEnable;

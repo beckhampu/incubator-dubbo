@@ -22,6 +22,9 @@ import java.util.Map;
 
 /**
  * MonitorConfig
+ * 
+ * 监控中心配置。
+ * 属性参见 http://dubbo.apache.org/books/dubbo-user-book/references/xml/dubbo-monitor.html
  *
  * @export
  */

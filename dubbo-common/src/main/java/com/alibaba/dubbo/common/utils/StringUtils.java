@@ -382,7 +382,15 @@ public final class StringUtils {
         }
         return buf.toString();
     }
-
+    
+    /**
+     * 将驼峰规则的名称按split分隔符转换
+     * 如camlName=qosPort，split=. return: qos.port
+     * 
+     * @param camelName
+     * @param split
+     * @return
+     */
     public static String camelToSplitName(String camelName, String split) {
         if (camelName == null || camelName.length() == 0) {
             return camelName;

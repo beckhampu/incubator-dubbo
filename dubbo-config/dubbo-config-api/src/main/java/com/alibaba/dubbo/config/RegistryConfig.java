@@ -24,6 +24,8 @@ import java.util.Map;
 
 /**
  * RegistryConfig
+ * 注册中心配置。
+ * 属性参见 http://dubbo.apache.org/books/dubbo-user-book/references/xml/dubbo-registry.html
  *
  * @export
  */
